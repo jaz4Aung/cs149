@@ -1,0 +1,16 @@
+  999  cd ..
+ 1000  df
+ 1001  pwd
+ 1002  cd Desktop
+ 1003  ls -latr ; mkdir cs149 ; cd cs149
+ 1004  git init
+ 1005  git remote add origin https://github.com/jaz4Aung/cs149.git
+ 1006  git remote add origin https://github.com/jaz4Aung/cs149.git\ngit branch -M main\ngit push -u origin main
+ 1007  git checkout
+ 1008  git branch
+ 1009  git status
+ 1010  mkdir WS_bonus
+ 1011  cd WS_bonus
+ 1012  git add .
+ 1013  wget -O out.pdf https://tinyurl.com/yy94jltt 
+ 1014  ls -latr
