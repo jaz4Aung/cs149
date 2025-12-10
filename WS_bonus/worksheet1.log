@@ -1,0 +1,42 @@
+ 1043  brew tap riscv/riscv
+ 1044  brew install riscv-tools
+ 1045  brew install qemu
+ 1046  $ qemu-system-riscv64 --version
+ 1047  qemu-system-riscv64 --version
+ 1048  riscv64-linux-gnu-gcc --version
+ 1049  riscv64-unknown-elf-gcc --version
+ 1050  riscv64-unknown-linux-gnu-gcc --version
+ 1051  clear
+ 1052  cd ~
+ 1053  cd Desktop
+ 1054  git clone git://g.csail.mit.edu/xv6-labs-2023
+ 1055  cd xv6-labs-2023
+ 1056  make qemu
+ 1057  ls
+ 1058  cd user
+ 1059  ls
+ 1060  vim usertests.
+ 1061  vim usertests.c
+ 1062  cd ..
+ 1063  make clean
+ 1064  make qemu
+ 1065  ls
+ 1066  clear
+ 1067  cd user
+ 1068  ls -lart
+ 1069  cd ..
+ 1070  cd Makefile
+ 1071  ls
+ 1072  cat Makefile
+ 1073  cd user
+ 1074  vim sleep.c
+ 1075  cd ..
+ 1076  vim Makefile
+ 1077  make clean
+ 1078  make qemu
+ 1079  ./grade-lab-util sleep
+ 1080  make GRADEFLAGS=sleep grade
+ 1081  history > worksheet1.log
+ 1082  cat worksheet1.log
+ 1083  history 20 > worksheet1.log
+ 1084  cat worksheet1.log
